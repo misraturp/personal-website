@@ -1,0 +1,58 @@
+body{
+	margin:0px;
+}
+
+.navbar{
+	display:flex;
+	flex-direction: row;
+
+	padding:5px;
+
+	background-color:#5c94bd;
+}
+
+.navbar a{
+	text-decoration: none;
+	color:black;
+
+	margin:10px;
+}
+
+.container{
+
+	
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+
+	background-color: #470938;
+
+}
+
+.content{
+	margin:10px;
+	padding:100px;
+
+}
+
+
+.idea:first-child{
+	grid-column: span 2;
+}
+
+.story:last-child{
+	grid-column: span 2;
+}
+
+.content img{
+	width:100%;
+}
+
+.idea{
+	background-color: #1a3e59;
+}
+
+.story{
+	background-color: #f2d6eb;
+}
